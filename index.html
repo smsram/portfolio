@@ -7,6 +7,7 @@
     <title>SMSRam</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="sms.png">
 </head>
 <body>
     <header class="header">
@@ -30,12 +31,12 @@
             <h3>And I'm a <span class="multiple-text"></span></h3>
             <p>Meher Siva Ram, a 17-year-old student in AI and ML, is passionate about programming and gaming, especially Brawl Stars.</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.facebook.com/share/LacKzaxGSchLdZap/"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://x.com/s_siva48056?s=09"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/smsram1?igsh=YTQwZjQ0NmI0OA=="><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/s-meher-siva-ram-b313b6321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
             </div>
-            <a href="#" class="btn">Discord</a>
+            <a href="#" class="btn">More Links</a>
         </div>
         <div class="home-img">
             <img src='https://i.postimg.cc/D8rz8mGD/6188294648397676890-99.jpg' alt='My Photo'/>
@@ -139,14 +140,14 @@
             <h2 class="heading">Contact <span>Me</span></h2>
             <form action="#">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name">
-                    <input type="email" placeholder="Email Address">
+                    <input type="text" placeholder="Full Name" id="name">
+                    <input type="email" placeholder="Email Address" id="email">
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Mobile Number">
-                    <input type="text" placeholder="Email Subject">
+                    <input type="number" placeholder="Mobile Number" id="phone">
+                    <input type="text" placeholder="Email Subject" id="subject">
                 </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" id="message"></textarea>
                 <input type="submit" value="Send Messege" class="btn">
             </form>
          </section>
@@ -166,7 +167,8 @@
      <script src="https://unpkg.com/scrollreveal"></script>
      <!-- typed js -->
      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-     
+     <!-- contact form -->
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
      <!-- java script -->
       <script src="script.js"></script>
 </body>
