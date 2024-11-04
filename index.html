@@ -140,16 +140,18 @@
         <!-- contact section design -->
          <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me</span></h2>
-            <form action="#">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="7c84a8cf-1219-437b-a02e-f2a7c0196d1a">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name" id="name">
-                    <input type="email" placeholder="Email Address" id="email">
+                    <input type="text" placeholder="Full Name" id="name" name="name">
+                    <input type="email" placeholder="Email Address" id="email" name="email">
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Mobile Number" id="phone">
-                    <input type="text" placeholder="Email Subject" id="subject">
+                    <input type="number" placeholder="Mobile Number" id="phone" name="phone">
+                    <input type="text" placeholder="Email Subject" id="subject" name="subject">
                 </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" id="message"></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" id="message"></textarea>
                 <input type="submit" value="Send Messege" class="btn">
             </form>
          </section>
